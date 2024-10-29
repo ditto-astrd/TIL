@@ -1,13 +1,13 @@
 ## 출처 
-- [만들면서 배우는 클린 아키텍처]()에서 핵심 내용을 발췌
+- [만들면서 배우는 클린 아키텍처](https://product.kyobobook.co.kr/detail/S000001766486)에서 핵심 내용을 발췌
 
 ----
 
-- - 13p
+- 13p
 	- SOLID의 SRP : 하나의 컴포넌트는 오로지 한가지 일만 해야하고 그것을 올바르게 수행해야 함
 		- 이에 대한 실제 해석은 '컴포넌트를 변경하는 이유는 오직 하나뿐이어야 한다'
-![[Pasted image 20240910153612.png]]
-![[Pasted image 20240910154010.png]]
+![hexagonal_1](https://github.com/ditto-astrd/TIL/blob/main/images/hexagonal_1.png?raw=true)
+![hexagonal_2](https://github.com/ditto-astrd/TIL/blob/main/images/hexagonal_2.png)
 - 각 이미지 : 18p, 20p 
 - 19P
 	- 클린 아키텍쳐에서는 도메인 계층이 영속성이나 UI 같은 외부 계층과 철저히 분리돼야 하므로, 어플리케이션의 엔티티에 대한 모델을 각 계층에서 유지보수 해야한다.
